@@ -1,20 +1,13 @@
-# Get the database using the method we defined in pymongo_test_insert file 
-from readsNlistsDocuments import get_database
+from InsertAcouple import get_database # Method from another test
 
 dbname = get_database()
 
-# Create a new collection
-collection_name = dbname["user_1_items"]
+collection_name = dbname["user_1_items"] # My collection
 
-item_details = collection_name.find()
-#for item in item_details:
-   
-#    print(item)
+item_details = collection_name.find() #My Finding Method 
     
 from pandas import DataFrame
 
-# convert the dictionary objects to dataframe
-items_df = DataFrame(item_details)
+items_df = DataFrame(item_details) # vis-a-vis .pretty()
 
-# see the magic
 print(items_df)

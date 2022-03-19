@@ -1,16 +1,11 @@
-#!/usr/bin/env python3
-#-*- coding: utf-8 -*-
-
+# Check the versions of Linux Python, its libraries, MongoDB, VSCode extentions etc.
 # import the complete PyMongo library and check its version
 import pymongo
 print ("pymongo version:", pymongo.version)
 
-# import the MongoClient class
-from pymongo import MongoClient
+from pymongo import MongoClient # import the MongoClient class
 
-# build a new client instance for MongoDB passing
-# the string domain and integer port to the host parameters
-mongo_client = MongoClient('localhost', 27017)
+mongo_client = MongoClient('localhost', 27017) # Gets useful data 4 MongoDB
 
-host_info = mongo_client['HOST']
+host_info = mongo_client['HOST']  #Show config
 print ("\nhost:", host_info)
