@@ -99,9 +99,9 @@ class Inference:
 
 
 # Usage example:
-
-rule_1 = Rule(">=", "37.5", "temperature", "True")
-rule_2 = Rule("==", "'loss of taste'", "taste", "True")
-inference = Inference([rule_1, rule_2],["and"],["Covid"])
+rule_1 = Rule(">=", "37.5", "temperature", "True") 
+rule_2 = Rule("==", "'loss of taste'", "taste", "True") 
+inference = Inference([rule_1, rule_2],["and"],["Covid"]) # vis-a-vis Deduction
+# Reading 01
 percepts = {"temperature":"38.5", "taste": "'loss of taste'", "breath":"'shortness of breath'"}
 print(inference.infer(percepts))
