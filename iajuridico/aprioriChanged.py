@@ -2,7 +2,7 @@
 # algorithm implementation
 #
 # Author: Fabrício G. M. de Carvalho, Ph.D
-# Adttion: F.O. 2-level ssociation rule
+# Adttion: F.O. 2-level ssociation rule.
 
 
 itemset = ['ação','nexo','dano']
