@@ -2,6 +2,18 @@
 
 ![Screenshot from 2022-05-21 14-04-07](https://user-images.githubusercontent.com/54047352/169661845-1ff8266c-6c86-48ca-b91b-67455850b808.png)
 
+#ANÁLISE DE AMOSTRAGEM + RECOMENDAÇÃO PARA ADVOCACIA.
+
+##REPONSABILIDADE CIVIL
+
+###SE HOUVER AÇÃO/OMISSÃO + NEXO + DANO:
+
+     print("-------------PROCESSO JUDICIAL--------------")            
+
+        else:             
+
+            print("PROPONHA ACORDO OU NÃO ENTRE COM AÇÃO")
+
 # Inference_engine
 
 AGENTE:
