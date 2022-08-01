@@ -58,3 +58,4 @@ MÁQUINA GERAL DE REGRAS
 ![Screenshot from 2022-03-19 01-54-02](https://user-images.githubusercontent.com/54047352/159107484-ebaf336a-b598-4098-9f30-92cf08603d0a.png)
 ![Screenshot from 2022-03-19 01-54-11](https://user-images.githubusercontent.com/54047352/159107487-660447ba-02c9-4142-9243-72ed438060b6.png)
 
+https://youtu.be/gR3z9_t0kKE
